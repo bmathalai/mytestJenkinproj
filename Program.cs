@@ -14,7 +14,7 @@ namespace WMISample
             ManagementScope scope = new ManagementScope(@"\\IN-PF2S40JT\root\cimv2", con);
             scope.Connect();
 
-            // Get the WMI class path test
+            // Get the WMI class path test testing
             ManagementPath p =
                 new ManagementPath(
                 "\\\\IN-PF2S40JT\\root" +
