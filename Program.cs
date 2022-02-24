@@ -15,6 +15,7 @@ namespace WMISample
             scope.Connect();
 
             // Get the WMI class path test testing
+             // test changes done for auto build trigger in jenkins
             ManagementPath p =
                 new ManagementPath(
                 "\\\\IN-PF2S40JT\\root" +
